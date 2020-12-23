@@ -1,10 +1,10 @@
 import React from 'react';
-import QuoteContainer from './components/QuoteContainer'
+import QuoteContainer from './Components/QuoteContainer'
 
-const App = (props) =>{
+function App() {
   return(
     <div>
-      <QuoteContainer store={props.store}/>
+      <QuoteContainer/>
     </div>
   )
 }
