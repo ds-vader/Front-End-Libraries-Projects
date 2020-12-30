@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { getQuote } from '../Redux/quote-reducer'
+import { getQuote } from '../../Redux/quote-reducer'
 import Quote from './Quote'
 import { compose } from 'redux'
 

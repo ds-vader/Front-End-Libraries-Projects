@@ -1,5 +1,6 @@
 import React from 'react'
 import './Quote.scss'
+import {Button} from 'react-bootstrap'
 
 const Quote = (props) => {
     return (
@@ -10,28 +11,21 @@ const Quote = (props) => {
                 </div>
                 <div className="quote-author">- <span id="author">{props.author}</span></div>
                 <div className="buttons">
-                    <a
-                        className="button"
-                        id="tweet-quote"
+                <Button className="fa fa-twitter button"
+                        id="tweet-quote" 
                         title="Tweet this quote!"
-                        target="_top"
-                        href={'https://twitter.com/intent/tweet?hashtags=quotes&text=' + '"' + props.quote+ '" - ' + props.author}
-                    >
-                        <i className="fa fa-twitter"></i>
-                    </a>
-                    <a
-                        className="button"
-                        id="tumblr-quote"
+                        target="_blank"
+                        href={'https://twitter.com/intent/tweet?hashtags=quotes&text=' + '"' + props.quote+ '" - ' + props.author}></Button>
+                <Button className="fa fa-tumblr button"
+                        id="tumblr-quote" 
                         title="Post this quote on tumblr!"
                         target="_blank"
-                        href={'https://www.tumblr.com/new'}
-                    >
-                        <i className="fa fa-tumblr"></i>
-                    </a>
+                        href={'https://www.tumblr.com/new'}></Button>
+
                     <button className="button" id="new-quote" onClick={props.newQuote}>New quote</button>
                 </div>
             </div>
-            <div className="footer">by 2Sad</div>
+            <div className="footer">by Medynskyi Dmytro</div>
         </div>
     )
 }
