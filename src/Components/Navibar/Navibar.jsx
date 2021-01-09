@@ -13,6 +13,7 @@ const Navibar = (props) =>{
                 <Nav.Link href="/RandomQuote">Random Quote</Nav.Link>
                 <Nav.Link href="/MarkdownPreviewer">Markdown Previewer</Nav.Link>
                 <Nav.Link href="/DrumMachine">Drum Machine</Nav.Link>
+                <Nav.Link href="/Calculator">Calculator</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

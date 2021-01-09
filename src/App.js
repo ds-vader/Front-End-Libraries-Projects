@@ -9,6 +9,7 @@ import Navibar from './Components/Navibar/Navibar'
 import QuoteContainer from './Components/RandomQuote/QuoteContainer'
 import MarkdownContainer from './Components/MarkdownPreviewer/MarkdownContainer'
 import DrumMachineContainer from './Components/DrumMachine/DrumMachineComponent'
+import Calculator from './Components/Calculator/CalculatorContainer'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/RandomQuote' render={() => <QuoteContainer />} />
         <Route path='/MarkdownPreviewer' render={() => <MarkdownContainer />} />
         <Route path='/DrumMachine' render={()=> <DrumMachineContainer />} />
+        <Route path='/Calculator' render={()=> <Calculator />} />
       </Router>
     </div>
   )
