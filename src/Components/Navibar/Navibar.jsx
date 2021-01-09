@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navbar, Nav, Link} from 'react-bootstrap'
+import {Navbar, Nav} from 'react-bootstrap'
 
 
 const Navibar = (props) =>{
@@ -12,6 +12,7 @@ const Navibar = (props) =>{
                 <Nav className='mr-auto'>
                 <Nav.Link href="/RandomQuote">Random Quote</Nav.Link>
                 <Nav.Link href="/MarkdownPreviewer">Markdown Previewer</Nav.Link>
+                <Nav.Link href="/DrumMachine">Drum Machine</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

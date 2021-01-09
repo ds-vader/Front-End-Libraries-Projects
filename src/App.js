@@ -2,14 +2,13 @@ import React from 'react';
 
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 import Navibar from './Components/Navibar/Navibar'
 import QuoteContainer from './Components/RandomQuote/QuoteContainer'
 import MarkdownContainer from './Components/MarkdownPreviewer/MarkdownContainer'
+import DrumMachineContainer from './Components/DrumMachine/DrumMachineComponent'
 
 function App() {
   return (
@@ -19,6 +18,7 @@ function App() {
         <Route exact path='/' />
         <Route path='/RandomQuote' render={() => <QuoteContainer />} />
         <Route path='/MarkdownPreviewer' render={() => <MarkdownContainer />} />
+        <Route path='/DrumMachine' render={()=> <DrumMachineContainer />} />
       </Router>
     </div>
   )
