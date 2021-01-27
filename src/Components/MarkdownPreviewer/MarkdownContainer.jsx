@@ -67,22 +67,22 @@ class MarkdownContainer extends React.Component {
 
   render() {
     return (
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col text-center text-white bg-success my-3">
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col text-center text-white bg-success my-3">
             <h1>Markdown previewer</h1>
           </div>
         </div>
-        <div class="row">
-          <div class="col-6 d-flex flex-column">
-            <h2 class="text-center my-3">Editor</h2>
-            <div class="form-group flex-grow-1 d-flex flex-column">
-              <textarea class="form-control flex-grow-1" type="text" id="editor" onChange={this.handleChange} value={this.state.markdown} />
+        <div className="row">
+          <div className="col-6 d-flex flex-column">
+            <h2 className="text-center my-3">Editor</h2>
+            <div className="form-group flex-grow-1 d-flex flex-column">
+              <textarea className="form-control flex-grow-1" type="text" id="editor" onChange={this.handleChange} value={this.state.markdown} />
             </div>
 
           </div>
-          <div class="col-6" >
-            <h2 class="text-center my-3">Preview</h2>
+          <div className="col-6" >
+            <h2 className="text-center my-3">Preview</h2>
               <div id="preview" dangerouslySetInnerHTML={this.createMarkup()} >{this.markdown}</div>
           </div>
         </div>
