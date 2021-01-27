@@ -28,6 +28,7 @@ class QuoteContainer extends React.Component {
         };
     }
 
+    //random change background color
     changeBg() {
         const { colors } = this.state;
         const color = colors[Math.floor(Math.random() * colors.length)];
@@ -36,17 +37,7 @@ class QuoteContainer extends React.Component {
         Array.from(document.getElementsByClassName('button')).forEach(element => element.style.backgroundColor = color);
     }
 
-    // animation() {
-    //     document.getElementsByClassName('quote-text')[0].animate({ opacity: 0 }, 500, function () {
-    //         this.animate({ opacity: 1 }, 500);
-    //     });
-
-    //     document.getElementsByClassName('quote-author')[0].animate({ opacity: 0 }, 500, function () {
-    //         this.animate({ opacity: 1 }, 500);
-    //     });
-    // }
-
-
+    //get random quote
     _random() {
         return Math.floor(Math.random() * 30) + 1
     }

@@ -1,5 +1,6 @@
 import { quoteAPI } from '../API/api'
 
+//actions names
 const GET_QUOTE = 'GET_QUOTE'
 const GET_AUTHOR = 'GET_AUTHOR'
 
@@ -19,9 +20,11 @@ const quoteReducer = (state = initialState, action) => {
     }
 }
 
+//action creators
 const getQuoteSuccess = (quote) => ({ type: GET_QUOTE, quote })
 const getAuthorSuccess = (author) => ({ type: GET_AUTHOR, author })
 
+//thunks
 export const getQuote = (id) => {
     return (dispatch) => {
         quoteAPI.getQuote(id)

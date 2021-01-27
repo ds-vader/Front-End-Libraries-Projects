@@ -52,6 +52,7 @@ const TomatoTimer = (props) => {
     )
 }
 
+// timer circle
 const SVGCircle = ({ radius }) => (
     <svg className='countdown-svg'>
         <path fill="none" stroke="#333" strokeWidth="4" d={describeArc(100, 100, 98, 0, radius)} />

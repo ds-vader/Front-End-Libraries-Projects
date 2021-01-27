@@ -2,13 +2,17 @@ import React, { useEffect } from 'react'
 
 const DrumPad = (props) => {
 
+  /*
+  * keyboard button control
+  * qwe-asd-zxc
+  */
   const handleKeyPress = (event) => {
     if (event.keyCode === props.keyCode && props.power) {
       props.playAudio(props.keyTrigger, props.id)
     }
   };
   
-
+  // check pressed button
   useEffect(() => {
     window.addEventListener('keydown', handleKeyPress, false);
 

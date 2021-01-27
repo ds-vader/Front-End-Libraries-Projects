@@ -37,6 +37,7 @@ class TomatoTimerContainer extends React.Component {
         clearInterval(this.timeCycle);
     }
 
+    //time controller
     timeControl = (count, timerType) => {
         let newCount;
 
@@ -59,7 +60,7 @@ class TomatoTimerContainer extends React.Component {
         }
     }
 
-
+    //reset to default values
     reset = () => {
         this.setState({
             breakLength: 5,
@@ -75,6 +76,7 @@ class TomatoTimerContainer extends React.Component {
         audio.currentTime = 0;
     }
 
+    //on/off control
     startStop = () => {
         if (this.state.timerState) {
             clearInterval(this.timeCycle)
@@ -89,6 +91,7 @@ class TomatoTimerContainer extends React.Component {
         }
     }
 
+    //countdown timer
     countDown = () => {
         if (this.state.timer === 0) {
             audio.play();
@@ -104,6 +107,7 @@ class TomatoTimerContainer extends React.Component {
         }
     }
 
+    //conver sec to normal time
     converter = (timeLeft) => {
         let minutes = Math.floor(timeLeft / 60)
         let seconds = timeLeft % 60

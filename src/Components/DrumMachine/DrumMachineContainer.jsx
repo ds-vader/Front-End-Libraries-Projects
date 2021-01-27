@@ -140,12 +140,14 @@ class DrumMachineContainer extends React.Component {
         })
     }
 
+    // on/off func
     isON = () => {
         this.setState({
             power: !this.state.power
         });
     };
 
+    //volume control
     volumeChange = (e) => {
         this.setState({
             volume: e.target.value
@@ -153,24 +155,28 @@ class DrumMachineContainer extends React.Component {
         this.updateDisplay('Volume : ' + parseInt(e.target.value * 100) + '%');
     }
 
+    //change sound set 
     bankTypeChanger = () => {
         this.setState({
             bankType: !this.state.bankType
         })
     }
 
+    //update display info
     updateDisplay = (info) => {
         this.setState({
             display: info
         })
     }
 
+    //add button animation
     animateDrumPad = (id) =>{
         let some = document.getElementById(id).classList;
         some.add('active-drum-pad')
         setTimeout(() => some.remove('active-drum-pad'), 100);
     }
 
+    //activate some audio
     playAudio = (keyTrigger, id) => {
         if(!this.state.power) return
         

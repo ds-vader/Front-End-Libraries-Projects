@@ -1,6 +1,7 @@
 import React from 'react'
 import Calculator from './Calculator'
 
+//regex rules
 const isOperator = /[*/+‑]/
 const endsWithOperator = /[*+‑/]$/
 const endWithNumber = /[0-9]$/
@@ -21,6 +22,7 @@ class CalculatorContainer extends React.Component {
         }
     }
 
+    //check digit limit
     maxDigitWarning = () => {
         this.setState({
             currentVal: 'Digit Limit Met',
@@ -29,6 +31,7 @@ class CalculatorContainer extends React.Component {
         setTimeout(() => this.setState({ currentVal: this.state.prevVal }), 1000);
     }
 
+    // evaluate handler
     handleEvaluate = () => {
         if (!this.state.currentVal.includes('Limit')) {
             let expression = this.state.formula;
@@ -56,6 +59,7 @@ class CalculatorContainer extends React.Component {
         }
     }
 
+    //operator handler
     handleOperators = (e) => {
         if (!this.state.currentVal.includes('Limit')) {
             const value = e.target.value;
@@ -82,6 +86,7 @@ class CalculatorContainer extends React.Component {
         }
     }
 
+    //numbers handler
     handleNumbers = (e) => {
         if (!this.state.currentVal.includes('Limit')) {
             const { currentVal, formula, evaluated } = this.state;
@@ -113,6 +118,7 @@ class CalculatorContainer extends React.Component {
         }
     }
 
+    //decimal handler
     handleDecimal = () => {
         if (this.state.evaluated === true) {
             this.setState({
@@ -144,6 +150,7 @@ class CalculatorContainer extends React.Component {
         }
     }
 
+    // start state
     initialize = () => {
         this.setState({
             currentVal: '0',

@@ -2,6 +2,7 @@ import React from 'react'
 import {Navbar, Nav} from 'react-bootstrap'
 import { House } from 'react-bootstrap-icons';
 
+//Navbar 
 
 const Navibar = (props) =>{
 

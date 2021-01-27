@@ -49,14 +49,13 @@ class MarkdownContainer extends React.Component {
       markdown: ''
     }
 
-    this.handleChange = this.handleChange.bind(this)
   }
 
   componentDidMount(){
     this.setState({markdown: placeholder})
   }
 
-  handleChange(e) {
+  handleChange = (e) =>{
     this.setState({
       markdown: e.target.value
     })
