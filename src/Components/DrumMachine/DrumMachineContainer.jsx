@@ -120,7 +120,7 @@ const bankTwo = [
     }
 ];
 
-class DrumMachineComponent extends React.Component {
+class DrumMachineContainer extends React.Component {
     constructor(props) {
         super(props);
 
@@ -153,12 +153,6 @@ class DrumMachineComponent extends React.Component {
         this.updateDisplay('Volume : ' + parseInt(e.target.value * 100) + '%');
     }
 
-    /*
-    * ISSUE
-    * if simultaneously press on drum-pad button and try to change bank type
-    * Cannot read property 'classList' of null 
-    * setTimeout(() => document.getElementById(id).classList.remove('active-drum-pad'), 100);
-    */
     bankTypeChanger = () => {
         this.setState({
             bankType: !this.state.bankType
@@ -178,6 +172,8 @@ class DrumMachineComponent extends React.Component {
     }
 
     playAudio = (keyTrigger, id) => {
+        if(!this.state.power) return
+        
         const audio = document.getElementById(keyTrigger);
         audio.currentTime = 0;
         audio.volume = this.state.volume;
@@ -276,4 +272,4 @@ class DrumMachineComponent extends React.Component {
     }
 }
 
-export default DrumMachineComponent
+export default DrumMachineContainer

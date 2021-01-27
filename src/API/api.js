@@ -1,7 +1,7 @@
 import * as axios from 'axios'
 
 const instance = axios.create({
-    baseURL: 'http://localhost:3004'
+    baseURL: 'http://my-json-server.typicode.com/twoSad/randomQuoteDB'
 })
 
 export const quoteAPI = {

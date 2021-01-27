@@ -48,7 +48,7 @@ class QuoteContainer extends React.Component {
 
 
     _random() {
-        return Math.floor(Math.random() * 102) + 1
+        return Math.floor(Math.random() * 30) + 1
     }
 
     render() {

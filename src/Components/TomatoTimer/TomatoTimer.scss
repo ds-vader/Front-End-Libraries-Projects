@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+	box-sizing: border-box;
+}
+
+#tomato {
+	background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	min-height: 100vh;
+	font-family: 'Lato', sans-serif;
+    margin: 0;
+    
+    /* If you want to implement it in very old browser-versions */
+    -webkit-user-select: none; /* Chrome/Safari */ 
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+
+    /* The rule below is not implemented in browsers yet */
+    -o-user-select: none;
+
+    /* The rule below is implemented in most browsers by now */
+    user-select: none;
+}
+
+#session-label, #break-label {
+	letter-spacing: 2px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#break-length, #session-length{
+    font-size: 25px;
+}
+
+#controllerPanel {
+    margin: auto;
+}
+
+#controller{
+    display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.tomatoWrapper{
+    display: inline-grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.countdown-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.countdown-item {
+	color: #111;
+	font-size: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+    line-height: 30px;
+	width: 200px;
+	height: 200px;
+}
+
+.countdown-item span {
+	color: #333;
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.countdown-svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+}
