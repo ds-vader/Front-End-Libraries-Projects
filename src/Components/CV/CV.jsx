@@ -58,7 +58,7 @@ const CV = (props) => {
                                         <i className="fab fa-weebly fa-2x"></i>
                                     </div>
                                     <div className="data">
-                                        2sad.site
+                                        2sad.vercel.app
              </div>
                                 </li>
                             </ul>
