@@ -58,7 +58,7 @@ const CV = (props) => {
                                         <i className="fab fa-weebly fa-2x"></i>
                                     </div>
                                     <div className="data">
-                                        2sad.vercel.app
+                                        2sad.site
              </div>
                                 </li>
                             </ul>
@@ -69,49 +69,46 @@ const CV = (props) => {
                             </div>
                             <ul>
                                 <li>
-                                    <div className="skill_name">
-                                        HTML
-             </div>
-                                    <div className="skill_progress">
-                                        <span style={{ width: '80%' }}></span>
-                                    </div>
-                                    <div className="skill_per">80%</div>
+                                    <div className="skill_name">- HTML 5 </div>
                                 </li>
                                 <li>
-                                    <div className="skill_name">
-                                        CSS
-             </div>
-                                    <div className="skill_progress">
-                                        <span style={{ width: '60%' }}></span>
-                                    </div>
-                                    <div className="skill_per">60%</div>
+                                    <div className="skill_name">- CSS 3</div>
                                 </li>
                                 <li>
-                                    <div className="skill_name">
-                                        SASS
-             </div>
-                                    <div className="skill_progress">
-                                        <span style={{ width: '70%' }}></span>
-                                    </div>
-                                    <div className="skill_per">70%</div>
+                                    <div className="skill_name">- SASS</div>
                                 </li>
                                 <li>
-                                    <div className="skill_name">
-                                        JS
-             </div>
-                                    <div className="skill_progress">
-                                        <span style={{ width: '60%' }}></span>
-                                    </div>
-                                    <div className="skill_per">60%</div>
+                                    <div className="skill_name">- Bootstrap</div>
                                 </li>
                                 <li>
-                                    <div className="skill_name">
-                                        REACT
-             </div>
-                                    <div className="skill_progress">
-                                        <span style={{ width: '70%' }}></span>
-                                    </div>
-                                    <div className="skill_per">70%</div>
+                                    <div className="skill_name">- JQuery</div>
+                                </li>
+                                <li>
+                                    <div className="skill_name">- JavaScript</div>
+                                </li>
+                                <li>
+                                    <div className="skill_name">- React</div>
+                                </li>
+                                <li>
+                                    <div className="skill_name">- Redux</div>
+                                </li>
+                                <li>
+                                    <div className="skill_name">- Git</div>
+                                </li>
+                                <li>
+                                    <div className="skill_name">- Babel</div>
+                                </li>
+                                <li>
+                                    <div className="skill_name">- REST API</div>
+                                </li>
+                                <li>
+                                    <div className="skill_name">- UX/UI</div>
+                                </li>
+                                <li>
+                                    <div className="skill_name">- Figma</div>
+                                </li>
+                                <li>
+                                    <div className="skill_name">- English lvl B1</div>
                                 </li>
                             </ul>
                         </div>
@@ -166,6 +163,53 @@ const CV = (props) => {
                                 </li>
                             </ul>
                         </div>
+                        <div className="resume_item resume_hobby">
+                            <div className="title">
+                                <p className="bold">Hobby</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div className="icon">
+                                        <i class="fas fa-dumbbell fa-2x"></i>
+                                    </div>
+                                    <div className="data">
+                                        <p className="semi-bold">Sport</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="icon">
+                                        <i class="fas fa-gamepad fa-2x"></i>
+                                    </div>
+                                    <div className="data">
+                                        <p className="semi-bold">Video games</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="icon">
+                                        <i class="fas fa-guitar fa-2x"></i>
+                                    </div>
+                                    <div className="data">
+                                        <p className="semi-bold">Guitar</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="icon">
+                                        <i class="fas fa-headphones fa-2x"></i>
+                                    </div>
+                                    <div className="data">
+                                        <p className="semi-bold">Music</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="icon">
+                                        <i class="fas fa-motorcycle fa-2x"></i>
+                                    </div>
+                                    <div className="data">
+                                        <p className="semi-bold">Motorcycle</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div className="resume_right">
@@ -183,7 +227,7 @@ const CV = (props) => {
                             <li>
                                 <div className="date">Nov 2020 - Present</div>
                                 <div className="info">
-                                    <p className="semi-bold">FreeCodeCamp and IT-KAMASUTRA</p>
+                                    <p className="semi-bold">FreeCodeCamp</p>
                                     <p>Front End Libraries Certification<br />In-depth study of React / Redux</p>
                                 </div>
                             </li>
@@ -215,23 +259,75 @@ const CV = (props) => {
                                     <p>Bachelor’s degree in Computer Science</p>
                                 </div>
                             </li>
-                            <li>
-                                <div className="date">2016 - 2017</div>
-                                <div className="info">
-                                    <p className="semi-bold">Java Online Course at Javarush.ru</p>
-                                </div>
-                            </li>
                         </ul>
                     </div>
-                    <div className="resume_item resume_hobby">
+                    <div className="resume_item resume_projects">
                         <div className="title">
-                            <p className="bold">Hobby</p>
+                            <p className="bold">Projects</p>
                         </div>
                         <ul>
-                            <li><i class="fas fa-dumbbell"></i></li>
-                            <li><i className="fas fa-gamepad"></i></li>
-                            <li><i class="fas fa-guitar"></i></li>
-                            <li><i class="fas fa-motorcycle"></i></li>
+                            <li>
+                                <div className="info">
+                                    <p className="semi-bold">Random Quotes</p>
+                                    <p>This project gives you a random quote from a famous person. If you want, you can share the quote on Twitter or on Tumblr</p>
+                                    <span className='hashtag'>#React</span>&nbsp;
+                                    <span className='hashtag'>#Redux</span>&nbsp;
+                                    <span className='hashtag'>#RestAPI</span>&nbsp;
+                                    <span className='hashtag'>#ReactBootstrap</span>&nbsp;
+                                    <span className='hashtag'>#JS</span>&nbsp;
+                                    <span className='hashtag'>#HTML</span>&nbsp;
+                                    <span className='hashtag'>#CSS</span>
+                                </div>
+                            </li>
+                            <hr />
+                            <li>
+                                <div className="info">
+                                    <p className="semi-bold">Markdown Previewer</p>
+                                    <p>This is the simple markdown editor with live preview that includes a markup syntax guide and laconic design</p>
+                                    <span className='hashtag'>#React</span>&nbsp;
+                                    <span className='hashtag'>#HTML</span>&nbsp;
+                                    <span className='hashtag'>#SCSS</span>&nbsp;
+                                    <span className='hashtag'>#MarkedLibrary</span>
+                                </div>
+                            </li>
+                            <hr />
+                            <li>
+                                <div className="info">
+                                    <p className="semi-bold">Drum Machine</p>
+                                    <p>Drum pad machine with 2 sound presets, volume control, on/off button and display which indication current action. Also funny animation (on high resolution monitor)</p>
+                                    <span className='hashtag'>#React</span>&nbsp;
+                                    <span className='hashtag'>#ReactBootstrap</span>&nbsp;
+                                    <span className='hashtag'>#JS</span>&nbsp;
+                                    <span className='hashtag'>#HTML</span>&nbsp;
+                                    <span className='hashtag'>#SCSS</span>&nbsp;
+                                    <span className='hashtag'>#Audio</span>
+                                </div>
+                            </li>
+                            <hr />
+                            <li>
+                                <div className="info">
+                                    <p className="semi-bold">Calculator</p>
+                                    <p>Calculator with common functionality (adding, subtraction, multiplication, division). Also correct work with negative values</p>
+                                    <span className='hashtag'>#React</span>&nbsp;
+                                    <span className='hashtag'>#JS</span>&nbsp;
+                                    <span className='hashtag'>#Regex</span>&nbsp;
+                                    <span className='hashtag'>#HTML</span>&nbsp;
+                                    <span className='hashtag'>#CSS</span>&nbsp;
+                                </div>
+                            </li>
+                            <hr />
+                            <li>
+                                <div className="info">
+                                    <p className="semi-bold">Tomato Timer</p>
+                                    <p>Flexible and easy to use Tomato Timer where user can configure work session and break time interval, for greater convenience and opportunities to adapt to different tasks. Session and break combination in infinite loop. At the end of any period user will hear a signal to end the current session </p>
+                                    <span className='hashtag'>#React</span>&nbsp;
+                                    <span className='hashtag'>#JS</span>&nbsp;
+                                    <span className='hashtag'>#Audio</span>&nbsp;
+                                    <span className='hashtag'>#TimeManager</span>&nbsp;
+                                    <span className='hashtag'>#HTML</span>&nbsp;
+                                    <span className='hashtag'>#CSS</span>&nbsp;
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>

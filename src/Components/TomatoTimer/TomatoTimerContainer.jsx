@@ -107,7 +107,7 @@ class TomatoTimerContainer extends React.Component {
         }
     }
 
-    //conver sec to normal time
+    //convert sec to normal time
     converter = (timeLeft) => {
         let minutes = Math.floor(timeLeft / 60)
         let seconds = timeLeft % 60
