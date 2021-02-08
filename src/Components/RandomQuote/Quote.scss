@@ -6,13 +6,16 @@
   vertical-align: baseline;
 }
 
+.wrapper{
+  max-width: 450px;
+}
+
 div {
   position: relative;
   z-index: 2;
 }
 
 .footer {
-  width: 450px;
   text-align: center;
   display: block;
   margin: 15px auto 30px auto;
@@ -27,28 +30,53 @@ div {
   justify-content: center;
   align-items: center;
 
+ 
+
   border-radius: 3px;
   position: relative;
   margin:8% auto auto auto;
-  width: 450px;
   padding: 40px 50px;
   display: table;
   background-color: #fff;
+  max-width: 700px;
+
+  @media (max-width: 992px) {
+    padding: 40px 20px;
+    max-width: 450px;
+  }
+
+  @media (max-width: 767px) {
+    max-width: 350px;
+  }
+
+  @media (max-width: 360px) {
+    max-width: 300px;
+  }
   .quote-text {
     i {
       font-size: 1em;
       margin-right: 0.4em;
       margin-left: 0.4em;
+      
     }
     text-align: center;
-    width: 450px;
     height: auto;
     clear: both;
     font-weight: 500;
     font-size: 1.75em;
+
+    @media (max-width:992px) {
+      font-size: 1.5em;
+    }
+    @media (max-width: 767px) {
+      font-size: 1.2em;
+    }
+  
+    @media (max-width: 360px) {
+      font-size: 1em;
+    }
   }
   .quote-author {
-    width: 450px;
     height: auto;
     clear: both;
     padding-top: 20px;
@@ -56,7 +84,6 @@ div {
     text-align: right;
   }
   .buttons {
-    width: 450px;
     margin: auto;
     display: block;
     .button {
