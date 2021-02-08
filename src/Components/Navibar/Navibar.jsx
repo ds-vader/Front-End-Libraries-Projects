@@ -1,25 +1,37 @@
 import React from 'react'
-import {Navbar, Nav} from 'react-bootstrap'
 import { House } from 'react-bootstrap-icons';
+import './Navibar.scss'
 
 //Navbar 
 
-const Navibar = (props) =>{
+const Navibar = (props) => {
 
-    return(
-        <Navbar collapseOnSelect bg='light'>
-            <Navbar.Brand className="ml-5" href="/"><House size={30}/></Navbar.Brand>
-            <Navbar.Toggle aria-controls='responsive-navbar-nav' />
-            <Navbar.Collapse id='responsive-navbar-nav'>
-                <Nav className='mr-auto'>
-                <Nav.Link href="/RandomQuote">Random Quote</Nav.Link>
-                <Nav.Link href="/MarkdownPreviewer">Markdown Previewer</Nav.Link>
-                <Nav.Link href="/DrumMachine">Drum Machine</Nav.Link>
-                <Nav.Link href="/Calculator">Calculator</Nav.Link>
-                <Nav.Link href="/TomatoTimer">Tomato Timer</Nav.Link>
-                </Nav>
-            </Navbar.Collapse>
-        </Navbar>
+    return (
+        <div class="nav">
+            <input type="checkbox" id="nav-check" />
+                <div class="nav-header">
+                    <div class="nav-title">
+                        <a href="/">
+                            <House size={30} />
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-btn">
+                    <label for="nav-check">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+
+                <div class="nav-links">
+                    <a href="/RandomQuote" >Random Quote</a>
+                    <a href="/MarkdownPreviewer">Markdown Previewer</a>
+                    <a href="/DrumMachine">Drum Machine</a>
+                    <a href="/Calculator">Calculator</a>
+                    <a href="/TomatoTimer">Tomato Timer</a>
+                </div>
+            </div>
     )
 }
 

@@ -15,7 +15,7 @@ import TomatoTimerContainer from './Components/TomatoTimer/TomatoTimerContainer'
 
 function App() {
   return (
-    <div>
+    <div id='app'>
       <Router>
       <Navibar />
         <Route exact path='/' render={() => <CV />}/>
