@@ -1,10 +1,30 @@
 .danceFloor {
     background-color: #3a3d41;
-    height: 94.1vh;
+    height: 94.9vh;
    }
+
+.scene{
+    background-color: #3a3d41;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    @media (max-width: 520px) {
+        display: inline;
+    }
+}
+
+.letsDancePart{
+    @media (max-width: 520px) {
+        display: none;
+    }
+}
 
 .controlSwitch{
     margin-bottom: 2vh;
+    @media (max-width: 520px) {
+         display: flex;
+         justify-content: center;
+         align-items: center;   
+    }
 }
 #drum-machine {
     width: 500px;
@@ -77,5 +97,12 @@
                 outline: none;
             }
         }
+    }
+
+    @media (max-width: 520px) {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        padding-top: 20px;
     }
 }

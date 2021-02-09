@@ -198,13 +198,11 @@ class DrumMachineContainer extends React.Component {
     render() {
         return (
             <div className='danceFloor'>
-                <Container>
-                    <Row>
-                        <Col>
+                <div className='scene'>
+                    <div className='letsDancePart'>
                             <LetsDance />
-                        </Col>
-                    </Row>
-                    <Row>
+                    </div>
+                    <div className='drumMachinePart'>
 
                         <div id='drum-machine'>
                             <div className='keyboard'>
@@ -271,8 +269,8 @@ class DrumMachineContainer extends React.Component {
                             </div>
                         </div>
 
-                    </Row>
-                </Container>
+                    </div>
+                </div>
             </div>
         )
     }
