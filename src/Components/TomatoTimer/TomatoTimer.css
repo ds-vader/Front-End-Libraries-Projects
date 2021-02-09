@@ -27,6 +27,18 @@
     /* The rule below is implemented in most browsers by now */
     user-select: none;
 }
+@media (max-width:600px){
+	#tomato{
+		justify-content: start;
+		padding-top: 25px;
+	}
+}
+
+@media (max-width:310px){
+	#tomato h1{
+		font-size: 30px;
+	}
+}
 
 #session-label, #break-label {
 	letter-spacing: 2px;
@@ -48,9 +60,20 @@
 	justify-content: space-around;
 }
 
+@media (max-width:600px){
+	#controller{
+		padding-top: 10px;
+	}
+}
+
 .tomatoWrapper{
     display: inline-grid;
     grid-template-columns: 200px 200px 200px;
+}
+@media (max-width: 600px) {
+	.tomatoWrapper{
+		grid-template-columns: 1fr;
+	}
 }
 
 .countdown-wrapper {
