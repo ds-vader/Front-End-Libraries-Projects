@@ -6,6 +6,7 @@
   list-style: none;
   font-family: "Montserrat", sans-serif;
 }
+
 .CV {
   background: #585c68;
   font-size: 14px;
@@ -129,10 +130,6 @@
   @media (max-width: 820px) {
     padding-left: 10px;
   }
-
-  // @media (max-width: 755px){
-  //   float: none;
-  // }
 }
 
 .resume .resume_left ul li:last-child {
@@ -148,6 +145,10 @@
   margin-right: 15px;
   font-size: 16px;
   position: relative;
+}
+
+.resume .resume_left ul li #CVMail{
+  font-size: 0.9em;
 }
 
 .resume .icon i,

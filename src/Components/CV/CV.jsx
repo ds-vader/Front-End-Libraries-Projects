@@ -60,9 +60,9 @@ const CV = (props) => {
                                             <i className="fas fa-envelope fa-2x"></i>
                                         </a>
                                     </div>
-                                    <div className="data">
+                                    <div className="data" id='CVMail'>
                                         <a href="mailto: dv.medynskyi@gmail.com">
-                                            dv.medynskyi<br />@gmail.com
+                                            dv.medynskyi@gmail.com
                                         </a>
                                     </div>
                                 </li>
@@ -82,7 +82,7 @@ const CV = (props) => {
                         </div>
                         <div className="resume_item resume_skills">
                             <div className="title">
-                                <p className="bold">skill's</p>
+                                <p className="bold">skills</p>
                             </div>
                             <ul>
                                 <li>
@@ -246,7 +246,7 @@ const CV = (props) => {
                     </div>
                     <div className="resume_item resume_work">
                         <div className="title">
-                            <p className="bold">Work Experience</p>
+                            <p className="bold">Certifications</p>
                         </div>
                         <ul>
                             <li>
