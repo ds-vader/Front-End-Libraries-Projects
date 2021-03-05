@@ -277,7 +277,13 @@
 .resume .resume_right .resume_projects ul li .info .semi-bold{
   display: flex;
   justify-content: center;
+  color: #0bb5f4;
 }
+
+.resume .resume_right .resume_projects ul li .info .header_link {
+  text-decoration: none;
+}
+
 
 .resume .resume_right ul li:last-child .info {
   margin-bottom: 0;
