@@ -1,5 +1,5 @@
 import React from 'react'
-import './Calculator.scss'
+import './calculator.scss'
 
 const Calculator = (props) => {
 

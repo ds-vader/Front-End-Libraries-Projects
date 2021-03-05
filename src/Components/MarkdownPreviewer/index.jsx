@@ -1,6 +1,6 @@
 import React from 'react'
 import marked from 'marked';
-import styles from './Markdown.module.scss'
+import styles from './markdown.module.scss'
 
 const placeholder = `# Welcome to my simple React Markdown Previewer!
 

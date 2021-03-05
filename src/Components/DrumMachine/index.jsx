@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import DrumPad from './DrumPad'
-import './DrumMachine.scss'
+import './drumMachine.scss'
 import LetsDance from './LetsDance/LetsDance'
 import BootstrapSwitchButton from 'bootstrap-switch-button-react'
 import RangeSlider from 'react-bootstrap-range-slider';

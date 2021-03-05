@@ -1,5 +1,5 @@
 import React from 'react'
-import './LetsDance.scss'
+import './letsDance.scss'
 
 
 /*

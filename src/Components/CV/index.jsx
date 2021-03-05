@@ -1,5 +1,5 @@
 import React from 'react'
-import './CV.scss'
+import './cv.scss'
 import selfie from '../../common/selfie.jpg'
 
 // from https://codepen.io/RajRajeshDn/pen/dyyrdQP
