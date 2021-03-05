@@ -1,20 +1,10 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './CV.scss'
 import selfie from '../../Common/selfie.jpg'
 
 // from https://codepen.io/RajRajeshDn/pen/dyyrdQP
-const CV = (props) => {
-
-    useEffect(() => {
-        const script = document.createElement('script');
-        script.src = "https://kit.fontawesome.com/b99e675b6e.js";
-        script.async = true;
-        document.body.appendChild(script);
-        return () => {
-            document.body.removeChild(script);
-        }
-    }, []);
-
+const CV = () => {
+    
     return (
         <div className='CV'>
             <div className="resume">
