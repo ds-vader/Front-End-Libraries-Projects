@@ -11,13 +11,13 @@ const Quote = (props) => {
                 </div>
                 <div className="quote-author">- <span id="author">{props.author}</span></div>
                 <div className="buttons">
-                    <Button className="fa fa-twitter button"
+                    <Button className="fab fa-twitter button"
                         id="tweet-quote"
                         title="Tweet this quote!"
                         target="_blank"
                         href={'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' +
                             encodeURIComponent('"' + props.quote + '" - ' + props.author)}></Button>
-                    <Button className="fa fa-tumblr button"
+                    <Button className="fab fa-tumblr button"
                         id="tumblr-quote"
                         title="Post this quote on tumblr!"
                         target="_blank"

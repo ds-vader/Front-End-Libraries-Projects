@@ -1,10 +1,9 @@
 import React from 'react'
 import './CV.scss'
-import selfie from '../../Common/selfie.jpg'
+import selfie from '../../common/selfie.jpg'
 
 // from https://codepen.io/RajRajeshDn/pen/dyyrdQP
 const CV = () => {
-    
     return (
         <div className='CV'>
             <div className="resume">

@@ -7,7 +7,7 @@ import {BrowserRouter} from 'react-router-dom'
 import {Provider} from 'react-redux'
 import "bootstrap/dist/css/bootstrap.css";
 import 'react-bootstrap-range-slider/dist/react-bootstrap-range-slider.css'; 
-import store from './Redux/store'
+import store from './redux/store'
 
 ReactDOM.render(
   <BrowserRouter>

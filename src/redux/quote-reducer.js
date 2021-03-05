@@ -1,4 +1,4 @@
-import { quoteAPI } from '../API/api'
+import { quoteAPI } from '../api/api'
 
 //actions names
 const GET_QUOTE = 'GET_QUOTE'
