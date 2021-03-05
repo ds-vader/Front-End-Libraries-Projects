@@ -5,13 +5,13 @@ import {
   Route
 } from "react-router-dom";
 
-import Navibar from './Components/Navibar/Navibar'
-import CV from './Components/CV/CV'
-import QuoteContainer from './Components/RandomQuote/QuoteContainer'
-import MarkdownContainer from './Components/MarkdownPreviewer/MarkdownContainer'
-import DrumMachineContainer from './Components/DrumMachine/DrumMachineContainer'
-import CalculatorContainer from './Components/Calculator/CalculatorContainer'
-import TomatoTimerContainer from './Components/TomatoTimer/TomatoTimerContainer'
+import Navibar from './Components/Navibar'
+import CV from './Components/CV'
+import QuoteContainer from './Components/RandomQuote'
+import MarkdownContainer from './Components/MarkdownPreviewer'
+import DrumMachineContainer from './Components/DrumMachine'
+import CalculatorContainer from './Components/Calculator'
+import TomatoTimerContainer from './Components/TomatoTimer'
 
 function App() {
   return (
