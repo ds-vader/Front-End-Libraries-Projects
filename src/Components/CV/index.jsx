@@ -1,6 +1,8 @@
 import React from 'react'
-import './cv.scss'
+
 import selfie from '../../common/selfie.jpg'
+
+import './cv.scss'
 
 // from https://codepen.io/RajRajeshDn/pen/dyyrdQP
 const CV = () => {

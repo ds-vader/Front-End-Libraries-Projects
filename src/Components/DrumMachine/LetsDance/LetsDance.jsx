@@ -1,7 +1,6 @@
 import React from 'react'
+
 import './letsDance.scss'
-
-
 /*
 * created by Judith Neumann
 * i take it from

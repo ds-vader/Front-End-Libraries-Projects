@@ -1,6 +1,7 @@
 import React from 'react'
-import './tomatoTimer.css'
 import { PlayCircleFill, PauseCircleFill, ArrowCounterclockwise, DashCircle, PlusCircle } from 'react-bootstrap-icons';
+
+import './tomatoTimer.css'
 
 const TomatoTimer = (props) => {
     return (

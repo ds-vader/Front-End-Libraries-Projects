@@ -1,8 +1,9 @@
 import React from 'react'
 import { connect } from 'react-redux'
+
 import { getQuote } from '../../redux/quote-reducer'
-import Quote from './Quote'
 import { compose } from 'redux'
+import Quote from './Quote'
 
 class QuoteContainer extends React.Component {
     componentDidMount() {

@@ -1,5 +1,6 @@
 import React from 'react'
 import { House } from 'react-bootstrap-icons';
+
 import './navibar.scss'
 
 //Navbar 

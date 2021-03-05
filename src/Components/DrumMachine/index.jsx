@@ -1,10 +1,12 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import DrumPad from './DrumPad'
-import './drumMachine.scss'
-import LetsDance from './LetsDance/LetsDance'
 import BootstrapSwitchButton from 'bootstrap-switch-button-react'
 import RangeSlider from 'react-bootstrap-range-slider';
+
+import DrumPad from './DrumPad'
+import LetsDance from './LetsDance/LetsDance'
+
+import './drumMachine.scss'
 
 const bankOne = [
     {

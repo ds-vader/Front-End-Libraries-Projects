@@ -1,6 +1,8 @@
 import React from 'react'
-import './quote.scss'
+
 import { Button } from 'react-bootstrap'
+
+import './quote.scss'
 
 const Quote = (props) => {
     return (
