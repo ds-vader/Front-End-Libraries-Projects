@@ -31,7 +31,7 @@ export const getQuote = (id) => {
             .then(data => {
                 dispatch(getQuoteSuccess(data.quote))
                 dispatch(getAuthorSuccess(data.author))
-            })
+            }).catch(error => console.log(error))
     }
 }
 

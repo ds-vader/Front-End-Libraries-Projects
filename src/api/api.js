@@ -12,6 +12,6 @@ export const quoteAPI = {
         return instance.get(`quotes/${id}`)
         .then(responce =>{
             return responce.data
-        })
+        }).catch(error => console.log(error))
     }
 }
