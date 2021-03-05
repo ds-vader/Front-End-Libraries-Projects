@@ -4,7 +4,7 @@ import { quoteAPI } from '../api/api'
 const GET_QUOTE = 'GET_QUOTE'
 const GET_AUTHOR = 'GET_AUTHOR'
 
-let initialState = {
+const initialState = {
     quote: '',
     author: ''
 }

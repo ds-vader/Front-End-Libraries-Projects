@@ -55,7 +55,7 @@ class QuoteContainer extends React.Component {
     }
 }
 
-let mapStateToProps = (state) => {
+const mapStateToProps = (state) => {
     return {
         quote: state.quotePage.quote,
         author: state.quotePage.author

@@ -21,7 +21,7 @@ class TomatoTimerContainer extends React.Component {
     }
 
     componentDidMount() {
-        let timerCycle = setInterval(this.countDown, 1000)
+        const timerCycle = setInterval(this.countDown, 1000)
 
         this.setState({
             breakLength: 5,

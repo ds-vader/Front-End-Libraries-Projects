@@ -42,7 +42,7 @@ class CalculatorContainer extends React.Component {
                 .replace(/x/g, '*')
                 .replace(/‑/g, '-')
                 .replace('--', '+0+0+0+0+0+0+');
-            let answer = Math.round(1000000000000 * eval(expression)) / 1000000000000;
+            const answer = Math.round(1000000000000 * eval(expression)) / 1000000000000;
             this.setState({
                 currentVal: answer.toString(),
                 formula:

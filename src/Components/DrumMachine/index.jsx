@@ -171,7 +171,7 @@ class DrumMachineContainer extends React.Component {
 
     //add button animation
     animateDrumPad = (id) =>{
-        let some = document.getElementById(id).classList;
+        const some = document.getElementById(id).classList;
         some.add('active-drum-pad')
         setTimeout(() => some.remove('active-drum-pad'), 100);
     }
