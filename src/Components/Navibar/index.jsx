@@ -5,7 +5,7 @@ import './navibar.scss'
 
 //Navbar 
 
-const Navibar = (props) => {
+const Navibar = () => {
 
     return (
         <div class="nav">
